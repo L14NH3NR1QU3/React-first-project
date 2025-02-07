@@ -13,10 +13,6 @@ function AddTasks(props){
             value={title}
             onChange={(event) => {setTitle(event.target.value)}}>
             </input>
-
-            <Input placeholder="Title"/>
-            <Input placeholder="Description"/>
-
             <input 
             className="border-slate-300 outline-slate-400 px-4 py-2 rounded-md" 
             type="text" 
